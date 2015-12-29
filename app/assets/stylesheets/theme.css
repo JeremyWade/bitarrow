@@ -1438,7 +1438,7 @@ nav.dismiss-active {
   top: 0;
   left: 0;
   z-index: 1;
-  background: #222;
+  background: url('<%= asset_path 'nyc.jpg' %>') #222;
   background-size: cover !important;
   background-position: 50% 50% !important;
   transition: all 0.3s ease;

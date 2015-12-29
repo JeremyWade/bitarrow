@@ -901,7 +901,6 @@ nav a {
   color: #666;
 }
 nav .logo {
-  max-height: 18px;
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -1133,7 +1132,8 @@ nav ul li:hover .subnav .subnav {
   position: relative;
 }
 .nav-1 .logo {
-  margin-top: 28px;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 .nav-1 .menu {
   margin-top: 26px;

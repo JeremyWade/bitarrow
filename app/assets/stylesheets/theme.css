@@ -901,6 +901,7 @@ nav a {
   color: #666;
 }
 nav .logo {
+  max-height: 18px;
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -1132,8 +1133,7 @@ nav ul li:hover .subnav .subnav {
   position: relative;
 }
 .nav-1 .logo {
-  margin-top: 15px;
-  margin-bottom: 10px;
+  margin-top: 28px;
 }
 .nav-1 .menu {
   margin-top: 26px;
@@ -1438,7 +1438,7 @@ nav.dismiss-active {
   top: 0;
   left: 0;
   z-index: 1;
-  background: url('<%= asset_path 'nyc.jpg' %>') #222;
+  background: #222;
   background-size: cover !important;
   background-position: 50% 50% !important;
   transition: all 0.3s ease;
@@ -1451,6 +1451,7 @@ nav.dismiss-active {
 }
 .background-image-holder.fadeIn {
   opacity: 1;
+  background: url('nyc.jpg');
 }
 .parallax > .background-image-holder,
 .parallax .slides li > .background-image-holder {

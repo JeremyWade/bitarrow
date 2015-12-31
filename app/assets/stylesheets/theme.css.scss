@@ -1451,7 +1451,7 @@ nav.dismiss-active {
 }
 .background-image-holder.fadeIn {
   opacity: 1;
-  background: url("nyc.jpg");
+  background-image: asset-data-url("nyc.jpg")
 }
 .parallax > .background-image-holder,
 .parallax .slides li > .background-image-holder {

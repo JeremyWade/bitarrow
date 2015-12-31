@@ -15,7 +15,13 @@ gem 'rails_12factor', group: :production
 
 # Use bootstrap for improving the look and feel
 gem 'bootstrap-sass'
- 
+
+# Use mailchimp API
+gem 'gibbon', '~> 2.2'
+
+# Secure login credentials
+gem "figaro"
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets

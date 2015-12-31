@@ -2,7 +2,8 @@ Rails.application.routes.draw do
 
   root 'pages#home'
 
-  post 'emailapi/subscribe' => 'emailapi#subscribe'
+  get 'emailsignup'  => 'emailapi#index'
+  post 'subscribenow'=> 'emailapi#subscribe'
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

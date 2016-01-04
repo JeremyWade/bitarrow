@@ -1,72 +1,10 @@
-<div class="nav-container">
-	
-			<nav class="nav-1">
-				<div class="navbar">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-3 col-sm-6 col-xs-4">
-								<a href="#">
-									<%= image_tag('bitarrow.png', class: 'logo', alt: 'Bitarrow') %>
-								</a>
-							</div>
-					
-							<div class="col-md-3 text-right col-sm-6 col-md-push-6 col-xs-8">
-								<a class="btn btn-filled" href="#">Sign Up Now »</a>
-								<div class="mobile-toggle">
-									<div class="upper"></div>
-									<div class="middle"></div>
-									<div class="lower"></div>
-								</div>
-							</div>
-					
-							<div class="col-md-6 text-center col-md-pull-3 col-sm-12 col-xs-12">
-								<ul class="menu">
-									<li>
-										<a href="#">
-											
-										</a>
-									</li>
-							
-									<li class="has-dropdown">
-										<a href="#">
-											
-										</a>
-										<ul class="subnav">
-											<li>
-												<a href="#">
-													
-												</a>
-											</li>
-									
-											<li class="has-dropdown">
-												<a href="#">
-													
-												</a>
-												<ul class="subnav">
-													<li>
-														<a href="#">
-															
-														</a>
-													</li>
-												</ul>
-											</li>
-										</ul>
-									</li>
-								</ul>
-							</div>
-				
-						</div>
-					</div>
-				</div>
-			</nav>
-		
-		</div>
-		
 		<div class="main-container">
 			
 			<section class="cta cta-7">
 				<div class="background-image-holder fadeIn">
+					<%= link_to root_path do %>
 					<%= image_tag('nyc.jpg', alt: 'Background Image') %>
+					<% end %>
 				</div>
 			
 				<div class="container">
@@ -76,29 +14,29 @@
 							<h1></h1>
 					<div class="row">
 						<div class="col-sm-12 text-center">
-							<h2 class="text-white">Make Payments From India to the USA <br>Faster and Cheaper</h2>
-							<h5 class="text-white">5% Flat Fee (no other hidden fees)</h5>
+							<h2 class="text-white">Make Payments to the USA From India <br>Faster and Cheaper</h2>
+							<h5 class="text-white">5% Transaction Fee (no hidden fees)</h5>
 						</div>
 
 						<div class="col-sm-12 text-center">
 							<h2></h2>
 							<h1></h1>
-                                                 <!-- newsletter form start -->
-                                                        <div id="newsletter">
-                                                            <div class="newsletter">
-                                                           <form action="http://bitarrow.us12.list-manage.com/subscribe/post" method="POST">
-															<input type="hidden" name="u" value="fc2009ce5b4769c9c00dfec8d">
-															<input type="hidden" name="id" value="5596bc5955">
-                                                            <input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="50" placeholder="Email Address">
-                                                        </div>
-                                                            <input type="submit" value="Start your free trial »">
-															<p class="sub"> </p>
-															<iframe srcdoc="" class="mail-list-form">
-															</iframe>
-                                                                </form>
-                                                            </div>
-                                                        </div>
-                                                    </div><!-- newsletter form end -->
+                        <!-- newsletter form start -->
+                         <div id="newsletter">
+                         <div class="newsletter">
+                         <form action="http://bitarrow.us12.list-manage.com/subscribe/post" method="POST">
+						<input type="hidden" name="u" value="fc2009ce5b4769c9c00dfec8d">
+						<input type="hidden" name="id" value="5596bc5955">
+                        <input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="50" placeholder="Email Address">
+                        </div>
+                        <input type="submit" value="Join the Beta Test Group »">
+						<p class="sub"> </p>
+						<iframe srcdoc="" class="mail-list-form">
+						</iframe>
+                        </form>
+                        </div>
+                        </div>
+                        </div><!-- newsletter form end -->
 						</div>
 					</div>
 				</div>

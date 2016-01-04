@@ -312,20 +312,20 @@ p.text-white a {
   text-align: center;
 }
 .btn:hover {
-  background-color: #6dc77a;
+  background-color: #34495e;
 }
 .btn-filled {
-  background: #6dc77a;
+  background: #1abc9c;
   color: #fff;
-  border: 1px solid #6dc77a;
+  border: 1px solid #1abc9c;
 }
 .btn-filled:hover,
 .btn:hover {
   color: #fff;
-  border-color: #6dc77a;
+  border-color: #1abc9c;
 }
 .btn-filled:hover {
-  background: #48b958;
+  background: #34495e;
 }
 .btn.super-action {
   border-radius: 3px;
@@ -450,8 +450,8 @@ input[type="submit"] {
   height: 54px;
   line-height: 48px;
   text-align: center;
-  background: #6dc77a;
-  border: 1px solid #6dc77a;
+  background: #e74c3c;
+  border: 1px solid ##e74c3c;
   font-size: 18px;
   font-weight: 300;
   padding: 0 36px;
@@ -461,7 +461,7 @@ input[type="submit"] {
   color: #fff;
 }
 input[type="submit"]:hover {
-  background: #5bc069;
+  background: #16a085;
   color: #fff;
 }
 input:focus,
@@ -1446,9 +1446,12 @@ nav.dismiss-active {
   -moz-transition: all 0.3s ease;
   opacity: 0;
 }
-
+.background-image-holder img {
+  display: none;
+}
 .background-image-holder.fadeIn {
   opacity: 1;
+  background: url("nyc.jpg");
 }
 .parallax > .background-image-holder,
 .parallax .slides li > .background-image-holder {
@@ -1457,6 +1460,10 @@ nav.dismiss-active {
   transition: all 0s ease !important;
   transition: opacity 0.3s ease !important;
   -webkit-transform-style: preserve-3d;
+}
+.main-container section:first-of-type .slides li > .background-image-holder,
+.main-container section:first-of-type .background-image-holder {
+  top: 0;
 }
 .header {
   padding: 0;
@@ -1925,12 +1932,12 @@ nav.dismiss-active {
   }
 }
 .header-9 {
-  padding: 50px 0;
-  background: #3498db;
+  padding: 160px 0;
+  background: #6dc77a;
 }
 @media all and (max-width: 767px) {
   .header-9 {
-    padding: 50px 0;
+    padding: 80px 0;
   }
 }
 .header-10 {
@@ -3866,7 +3873,7 @@ nav.dismiss-active {
 }
 /*!---------- FAQ & TERMS ----------*/
 .faq-1 .faq {
-  margin-bottom: 10px;
+  margin-bottom: 80px;
 }
 .faq-1 .faq h5 {
   margin-bottom: 20px;

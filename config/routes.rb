@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
   root 'pages#home'
+  get "faq" => "pages#faq"
 
   get 'emailsignup'  => 'emailapi#index'
   post 'subscribenow'=> 'emailapi#subscribe'

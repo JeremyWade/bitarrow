@@ -322,10 +322,10 @@ p.text-white a {
 .btn-filled:hover,
 .btn:hover {
   color: #fff;
-  border-color: #1abc9c;
+  border-color: #2ab0b9;
 }
 .btn-filled:hover {
-  background: #34495e;
+  background: #2ab0b9;
 }
 .btn.super-action {
   border-radius: 3px;
@@ -445,6 +445,19 @@ input[type="text"] {
   color: #888888;
   font-weight: 400;
 }
+
+input[type="email"] {
+  height: 50px;
+  line-height: 44px;
+  padding-left: 16px;
+  border: 1px solid #eee;
+  background: #fff;
+  border-radius: 3px;
+  font-size: 16px;
+  color: #888888;
+  font-weight: 400;
+}
+
 input[type="submit"] {
   font-weight: 500 !important;
   height: 54px;
@@ -1062,7 +1075,6 @@ nav ul li:hover .subnav .subnav {
   }
 }
 .mobile-toggle {
-  position: relative;
   cursor: pointer;
   top: 0px;
   margin-left: 18px;

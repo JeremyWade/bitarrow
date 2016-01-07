@@ -12,12 +12,26 @@
 					
 							<div class="col-md-3 text-right col-sm-6 col-md-push-6 col-xs-8">
 								<%= link_to "Learn How it Works »", faq_path, class: "btn btn-filled" %>
-								<div class="mobile-toggle">
-									<div class="upper"></div>
-									<div class="middle"></div>
-									<div class="lower"></div>
-								</div>
-							</div>
+
+								<!-- Brand and toggle get grouped for better mobile display -->
+            				<div class="mobile-toggle">
+            				<ul class="nav navbar-nav navbar-right">
+                    		<li class="active">
+                    		<%= link_to "Learn How it Works »", faq_path, class: "btn btn-filled" %>
+                    		</li>
+                			</ul>
+                		<button type="button" class="navbar-toggle" class: "btn btn-filled" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                		</button>
+            			
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active">
+                    	<%= link_to "Learn How it Works »", faq_path, class: "btn btn-filled" %>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
 					
 							<div class="col-md-6 text-center col-md-pull-3 col-sm-12 col-xs-12">
 								<ul class="menu">

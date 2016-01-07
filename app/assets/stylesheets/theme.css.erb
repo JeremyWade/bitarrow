@@ -75,6 +75,7 @@ a:focus {
 img {
   max-width: 100%;
 }
+
 .hero-slider {
   position: relative;
   overflow: hidden;
@@ -923,6 +924,7 @@ nav .logo {
   nav {
     overflow: hidden;
   }
+
 }
 nav .callout {
   position: relative;
@@ -981,10 +983,11 @@ nav.overlay.fixed.dark .navbar {
 }
 nav ul {
   display: inline-block;
+  margin-right: 20px;
 }
 nav ul li {
-  float: left;
-  margin-right: 26.66666667px;
+  float: right;
+  margin-right: 0px;
   font-size: 14px;
 }
 nav ul ul {
@@ -1147,6 +1150,14 @@ nav ul li:hover .subnav .subnav {
 .nav-1 .logo {
   margin-top: 28px;
 }
+
+@media (max-width: 500px){
+.nav-1 .logo {
+    max-width:145%;
+    max-height:145%;
+} 
+}
+ 
 .nav-1 .menu {
   margin-top: 26px;
   transition: all 0.3s ease;
@@ -1323,6 +1334,11 @@ nav ul li:hover .subnav .subnav {
   }
   nav .btn {
     display: none;
+  }
+  nav .btn-filled {
+    height: 40px;
+    font-size: 12px;
+    float: right;
   }
   .nav-1 .mobile-toggle {
     top: 27px;

@@ -1,5 +1,3 @@
-![BitArrow](https://raw.githubusercontent.com/JeremyWade/bitarrow/master/app/assets/images/bitarrow-email.png)
-
 BitArrow helps you send money from India to the USA, as easy as email.
 
 
